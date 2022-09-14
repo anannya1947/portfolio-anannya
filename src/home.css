@@ -5,5 +5,33 @@ body {
 }
 
 #home-page {
-    background-color: aqua;
+    background-color: white;
+}
+
+img {
+    width: 650px;
+    height: 500px;
+    margin-left: 200px;
+    margin-bottom: 100px;
+}
+
+.home-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+p {
+    font-size: 30px;
+    color: rgb(108, 106, 106);
+}
+
+button {
+    font-size: 20px;
+    background-color: #c1c1fa;
+    border-radius: 5px;
 }
