@@ -1,14 +1,14 @@
 import React, { Component } from "react";
-import './contact.css';
+import './projects.css';
 
-class Contact extends Component {
+class Projects extends Component {
     render() {
         return (
             <div>
-                <p>Contact page</p>
+                <p>Projects page</p>
             </div>
         )
     }
 }
 
-export default Contact;
+export default Projects;
