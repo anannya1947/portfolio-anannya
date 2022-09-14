@@ -5,7 +5,15 @@ class Contact extends Component {
     render() {
         return (
             <div>
-                <p>Contact page</p>
+
+
+                <form>
+                    <input type="text" placeholder="Full name" />
+                    <input type="email" placeholder="Email" />
+                    <textarea placeholder="Message"></textarea>
+
+                </form>
+                <button id="alert-button">Submit</button>
             </div>
         )
     }

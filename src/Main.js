@@ -37,6 +37,11 @@ class Main extends Component {
                     <section id="contact">
                         <Contact />
                     </section>
+                    <div className="footer">
+                        <p>Anannya Mahapatra</p>
+                        <p>&copy; Let's not pretend | copyrighted this | 2022 | Made with ❤️</p>
+                    </div>
+
                 </div>
             </HashRouter>
         )
