@@ -4,6 +4,29 @@ body {
 
 }
 
+p {
+    color: #3c3577;
+    margin: 0px;
+    padding: 20px;
+}
+
 #about {
-    background-color: rgb(27, 215, 27);
+    background-color: #c1c1fa;
+}
+
+.socials {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    margin-left: 30%;
+}
+
+#git {
+    height: 50px;
+    width: 50px;
+}
+
+#lin {
+    height: 40px;
+    width: 50px;
 }
