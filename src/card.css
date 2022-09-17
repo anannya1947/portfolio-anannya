@@ -1,0 +1,32 @@
+.cards {
+    box-shadow: 0 0 10px 5px #c1c1fa;
+    border-radius: 5px;
+    min-width: 30rem;
+    display: flex;
+}
+
+.card_img {
+    width: 20rem;
+    height: 13rem;
+    margin: 10px;
+    align-self: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.card_title {
+    line-height: 1.4 rem;
+    margin-bottom: 0.5rem;
+}
+
+.card_description {
+    font-size: large;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}

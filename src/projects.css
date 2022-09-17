@@ -4,6 +4,13 @@ body {
 
 }
 
-#projects {
-    background-color: blueviolet;
+
+.card_display {
+    margin: 2rem;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    grid-template-columns: 1fr;
+    justify-content: space-evenly;
+    width: auto;
 }
